@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0",
-  "latestVersionCode": 1,
+  "latestVersion": "1.2",
+  "latestVersionCode": 3,
   "url": "https://github.com/constantinemars/AppUpdaterDemo/releases",
   "releaseNotes": [
     "- Test update",
