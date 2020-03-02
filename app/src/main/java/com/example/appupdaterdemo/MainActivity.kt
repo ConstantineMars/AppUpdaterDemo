@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val appUpdater = AppUpdater(this)
                 .setDisplay(Display.DIALOG)
                 .setUpdateFrom(UpdateFrom.JSON)
-                .setUpdateJSON("https://github.com/ConstantineMars/AppUpdaterDemo/blob/master/app/update.json")
+                .setUpdateJSON("https://raw.githubusercontent.com/ConstantineMars/AppUpdaterDemo/1.2.2/app/update.json")
                 .setIcon(R.drawable.ic_system_update_black_24dp)
         appUpdater.start()
     }
